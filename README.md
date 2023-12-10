@@ -11,22 +11,22 @@ Laravel Livewire Demo is a demonstration project showcasing the usage of the Lar
 - [Environment Variables](#environment-variables)
 - [Installation](#installation)
 
-## ✨ Introduction
+## Introduction
 
 Laravel Livewire is a powerful Laravel package that allows you to build interactive and dynamic user interfaces using server-side logic. It eliminates the need for extensive JavaScript code, making it an excellent choice for developers who prefer to work primarily with PHP and Laravel.
 
 
 
-## ✨ Features
+## Features
 
 - **CRUD Operations:** Demonstrates basic CRUD operations using Laravel Livewire.
 - **Eloquent Integration:** Leverages Laravel's Eloquent ORM for database interactions.
 - **Blade Templating:** Integrates seamlessly with Laravel's Blade templating engine.
 - **Reactive Components:** Utilizes reactive components for real-time updates without extensive JavaScript.
 
-## 🔧 Environment Variables
+## Environment Variables
 
-You need to change below following environment variables to your .env file
+You need to change below following environment variables to your .env file according to your database setup
 
 `DB_HOST`
 
@@ -38,7 +38,7 @@ You need to change below following environment variables to your .env file
 
 `DB_PASSWORD`
 
-## 🚀 Installation
+## Installation
 
 Clone the project
 
@@ -67,13 +67,13 @@ Install dependencies
 Generate application key
 
 ```bash
-php artisan key:generate
+  php artisan key:generate
 ```
 
 Run database migrations
 
 ```bash
-php artisan key:generate
+  php artisan key:generate
 ```
 
 Start the server
