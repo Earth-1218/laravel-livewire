@@ -82,6 +82,6 @@ Start the server
   php artisan serve
 ```
 
-## 👤 Author
+## Author
 
-This project was created by [Ravi Majithiya].
+**Ravi Majithiya**
