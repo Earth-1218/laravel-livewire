@@ -1,4 +1,6 @@
-# Laravel Livewire Demo
+![Laravel Livewire](https://picperf.io/https://laravelnews.s3.amazonaws.com/images/laravel-livewire.png)
+
+# Laravel Livewire 
 
 Laravel Livewire Demo is a demonstration project showcasing the usage of the Laravel Livewire package for building dynamic interfaces within Laravel applications. The project covers basic CRUD (Create, Read, Update, Delete) operations using Laravel Livewire.
 
@@ -8,12 +10,8 @@ Laravel Livewire Demo is a demonstration project showcasing the usage of the Lar
 - [Features](#features)
 - [Environment Variables](#environment-variables)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
-## 🚀 Introduction
+## ✨ Introduction
 
 Laravel Livewire is a powerful Laravel package that allows you to build interactive and dynamic user interfaces using server-side logic. It eliminates the need for extensive JavaScript code, making it an excellent choice for developers who prefer to work primarily with PHP and Laravel.
 
@@ -83,3 +81,7 @@ Start the server
 ```bash
   php artisan serve
 ```
+
+## 👤 Author
+
+This project was created by [Ravi Majithiya].
