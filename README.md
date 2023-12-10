@@ -1,19 +1,32 @@
+# Laravel Livewire Demo
 
-## Laravel Livewire
+Laravel Livewire Demo is a demonstration project showcasing the usage of the Laravel Livewire package for building dynamic interfaces within Laravel applications. The project covers basic CRUD (Create, Read, Update, Delete) operations using Laravel Livewire.
 
-Laravel Livewire is a Laravel framework that allows to build dynamic interfaces all from within Laravel. It can be compared to the power of adding a JavaScript framework to your frontend.
+## Table of Contents
 
-In this demo, I've tried to cover CRUD operation with the laravel Livewire package.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Environment Variables](#environment-variables)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+
+## 🚀 Introduction
+
+Laravel Livewire is a powerful Laravel package that allows you to build interactive and dynamic user interfaces using server-side logic. It eliminates the need for extensive JavaScript code, making it an excellent choice for developers who prefer to work primarily with PHP and Laravel.
 
 
 
-## Environment Variables
+## ✨ Features
 
-For making .env file run below command from root directory
+- **CRUD Operations:** Demonstrates basic CRUD operations using Laravel Livewire.
+- **Eloquent Integration:** Leverages Laravel's Eloquent ORM for database interactions.
+- **Blade Templating:** Integrates seamlessly with Laravel's Blade templating engine.
+- **Reactive Components:** Utilizes reactive components for real-time updates without extensive JavaScript.
 
-```bash
-  cp .env.example .env
-```
+## 🔧 Environment Variables
 
 You need to change below following environment variables to your .env file
 
@@ -27,7 +40,7 @@ You need to change below following environment variables to your .env file
 
 `DB_PASSWORD`
 
-## Run Locally
+## 🚀 Installation
 
 Clone the project
 
@@ -41,10 +54,28 @@ Go to the project directory
   cd laravel-livewire-demo
 ```
 
+For making .env file run below command from root directory
+
+```bash
+  cp .env.example .env
+```
+
 Install dependencies
 
 ```bash
   composer install
+```
+
+Generate application key
+
+```bash
+php artisan key:generate
+```
+
+Run database migrations
+
+```bash
+php artisan key:generate
 ```
 
 Start the server
