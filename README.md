@@ -1,9 +1,9 @@
 
-## Laravel Liwewire
+## Laravel Livewire
 
 Laravel Livewire is a Laravel framework that allows to build dynamic interfaces all from within Laravel. It can be compared to the power of adding a JavaScript framework to your frontend.
 
-In this demo, I've tried to cover CRUD operation with the laravel Liwewire package.
+In this demo, I've tried to cover CRUD operation with the laravel Livewire package.
 
 
 
